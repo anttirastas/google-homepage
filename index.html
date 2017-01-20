@@ -1,46 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link type="text/css" rel="stylesheet" href="stylesheets/meyerweb_css_reset.css">
+	<link type="text/css" rel="stylesheet" href="stylesheets/stylesheet.css">
 	<title>Google</title>
-	<link type="text/css" rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
 	<div id="container">
-		
-		<div id="topnav">
-			<div id="gmail">Gmail</div>
-			<div id="images">Images</div>
-			<div id="app-grid">Apps</div>
-			<div id="sign-in">Sign In</div>
+		<header>		
+			<div id="navbar-topright">
+				<div class="topnav" id="gmail">Gmail</div>
+				<div class="topnav" id="images">Images</div>
+				<div class="topnav" id="app-grid">Apps</div>
+				<div class="topnav" id="sign-in"> Sign in</div>
+			</div>
+		</header>
+
+		<div id="top-whitespace"></div>
+
+		<div id="main-content-area">
+			<div id="logo-fi"><a href="https://www.google.fi/"><img src="images/google-logo-fi.png" /></a></div>
+			<form>
+				<div class="input-container">
+					<input type=text />
+				</div>
+			</form>
+			<div id="buttons-row">
+				<div class="button">Google Search</div>
+				<div class="button">I'm Feeling Lucky</div>
+			</div>
+			<div id="language-choices">
+				<div id="choices-are">Google.fi offered in: </div>
+				<div class="space"> </div>
+				<div class="choice-link"><a href="#">suomi</a></div>
+				<div class="space"> </div>
+				<div class="choice-link"><a href="#">svenska</a></div>
+			</div>
 		</div>
-		
-		<div id="logo-fi"></div>
 
-		<div id="search-form"></div>
-		
-		<div id="buttons">
-			
-		</div>
+		<footer>
+			<div id="footer-left">
+				<div class="footer-link" id="advertising">Advertising</div>
+				<div class="footer-link" id="business">Business</div>
+				<div class="footer-link" id="about">About</div>
+			</div>
 
-		<div id="language-choices">
-			<div id="choices-are">Google.fi offered in: </div>
-			<div class="space"> </div>
-			<div class="choice-link">suomi</div>
-			<div class="space"> </div>
-			<div class="choice-link">svenska</div>
-		</div>
-
-
-		<div id=footer>
-			<div id="advertising">Advertising</div>
-			<div id="business">Business</div>
-			<div id="about">About</div>
-
-			<div id="privacy">Privacy</div>
-			<div id="terms">Terms</div>
-			<div id="settings">Settings</div>
-
-		</div>
+			<div id="footer-right">		
+				<div class="footer-link" id="privacy">Privacy</div>
+				<div class="footer-link" id="terms">Terms</div>
+				<div class="footer-link" id="settings">Settings</div>
+			</div>
+		</footer>
 
 
 	</div>
